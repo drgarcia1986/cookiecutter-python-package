@@ -1,8 +1,0 @@
-site_name: {{ cookiecutter.project_name }}
-site_description: {{ cookiecutter.project_short_description}}
-repo_url: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}
-site_url: http://{{cookiecutter.app_name}}.readthedocs.org/en/latest/
-theme: readthedocs
-
-pages:
-    - ['index.md', 'Home']

@@ -18,18 +18,18 @@ except:
 
 
 setup(
-    name='{{ cookiecutter.app_name }}',
+    name='{{ cookiecutter.package_name }}',
     version='0.0.0',
     install_requires=[],
-    url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}',
+    url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.package_name}}',
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',
-    keywords='{{ cookiecutter.app_name }}',
+    keywords='{{ cookiecutter.package_name }}',
     description=description,
     long_description=long_description,
-    download_url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}/tarball/master',
-    packages=['{{ cookiecutter.app_name }}'],
-    package_dir={'{{ cookiecutter.app_name }}': '{{ cookiecutter.app_name }}'},
+    download_url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.package_name}}/tarball/master',
+    packages=['{{ cookiecutter.package_name }}'],
+    package_dir={'{{ cookiecutter.package_name }}': '{{ cookiecutter.package_name }}'},
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',

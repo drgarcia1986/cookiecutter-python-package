@@ -4,13 +4,13 @@ clean:
 	@find . -name "__pycache__" -type d | xargs rm -rf
 
 flake8:
-	flake8 {{ cookiecutter.app_name }}/
+	flake8 {{ cookiecutter.package_name }}/
 
 test: clean flake8
-	py.test --cov-config .coveragerc --cov-report term-missing --cov {{ cookiecutter.app_name }}/ tests/
+	py.test --cov-config .coveragerc --cov-report term-missing --cov {{ cookiecutter.package_name }}/ tests/
 
 test-debug: clean
-	py.test -x --pdb {{ cookiecutter.app_name }}/ tests/
+	py.test -x --pdb {{ cookiecutter.package_name }}/ tests/
 
 requirements: clean
 	pip install -r requirements-dev.txt
