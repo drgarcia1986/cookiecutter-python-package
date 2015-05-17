@@ -1,0 +1,9 @@
+{
+	"year": "2015",
+	"full_name": "Diego Garcia",
+	"email": "drgarcia1986@gmail.com",
+	"github_username": "drgarcia1986",
+	"project_name": "My Python App",
+	"app_name": "mypythonapp",
+	"project_short_description": "A cookiecutter template for creating OpenSource packages quickly."
+}
